@@ -2,7 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 //import EventBind from './components/EventBind';
-import ParentComponents from './ParentComponents';
+import ParentComponents from './components/ParentCompnents';
 // import Greet from './components/Greet'
 //  import Wel from './components/Welcome'
 // import Hel from './components/Hello'
