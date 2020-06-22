@@ -1,8 +1,10 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+//import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 //import EventBind from './components/EventBind';
-import ParentComponents from './components/ParentCompnents';
+//import ParentComponents from './components/ParentCompnents';
 // import Greet from './components/Greet'
 //  import Wel from './components/Welcome'
 // import Hel from './components/Hello'
@@ -35,8 +37,10 @@ function App() {
       <Wel name=" nazmul3" age = "26" />
       <FunctionClick/> 
       <ClassClick/>
-      <EventBind/>*/}
+      <EventBind/>
       <ParentComponents/>
+      <UserGreeting/>*/}
+      <NameList/>
     </div>
   );
 }
