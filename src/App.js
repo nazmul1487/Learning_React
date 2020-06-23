@@ -2,7 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 //import UserGreeting from './components/UserGreeting';
-import NameList from './components/NameList';
+//import NameList from './components/NameList';
 //import EventBind from './components/EventBind';
 //import ParentComponents from './components/ParentCompnents';
 // import Greet from './components/Greet'
@@ -12,7 +12,10 @@ import NameList from './components/NameList';
 //import Counter from './components/Counter'
 // import FunctionClick from './components/FunctionClick'
 // import ClassClick from './components/ClassClick';
-
+// import StyleSheet from './components/StyleSheet'
+import Inline from './components/Inline';
+import './appStyle.css'
+import Style from './appStyle.module.css'
 
 function App() {
   return (
@@ -39,8 +42,12 @@ function App() {
       <ClassClick/>
       <EventBind/>
       <ParentComponents/>
-      <UserGreeting/>*/}
+      <UserGreeting/>
       <NameList/>
+      <StyleSheet primary = {true}/>*/}
+      <Inline/>
+      <h1 className= 'error'>Error</h1>
+      <h1 className = {Style.sucess}> Sucess</h1>
     </div>
   );
 }
