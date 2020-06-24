@@ -5,7 +5,6 @@ const className ={
     fontSize: '70px',
     color: 'red'
 }
-
     return (
         <div>
             <h1 style ={className}>Hello Bangladesh</h1>
